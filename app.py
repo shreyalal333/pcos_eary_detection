@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="PCOS Detection with Explainability", layout="wide")
-st.title("🩺 PCOS Early Detection System with Explainable AI")
+st.title("🩺 PCOS Early Detection System")
 st.write("Upload patient data to get predictions and understand *why* the model predicts PCOS.")
 
 # ------------------------------------------------------
