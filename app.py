@@ -60,8 +60,8 @@ if uploaded_file:
         st.error("❌ Dataset must contain a column named 'PCOS' (0 = No, 1 = Yes)")
         st.stop()
 
-    y_true = df["SOPK"]
-    X = df.drop(columns=["SOPK"])
+    y_true = df["PCOS"]
+    X = df.drop(columns=["PCOS"])
 
     # ---------------- COLUMN CHECK ----------------
     expected_cols = list(preprocessor.feature_names_in_)
